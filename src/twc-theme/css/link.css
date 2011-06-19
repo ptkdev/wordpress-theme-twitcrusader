@@ -25,7 +25,7 @@
  */
 
 a:link, a:visited, a:hover, a:active, a:focus{
-	color: #517CB2;
+	color: #6183A6;
 }
 
 a:link:hover, a:visited:hover{ 
@@ -47,7 +47,7 @@ a:link{
 a.menu-link:link, a.menu-link:visited, a.menu-link:hover, a.menu-link:active, a.menu-link:focus{
 	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
 	font-size: 18px;
-	color: #E9E9E9;
+	color: #3B6AA0;
 }
 
 a.menu-link:link:hover, a.menu-link:visited:hover{ 
@@ -95,7 +95,7 @@ a.footer-link:link, a.footer-link:visited, a.footer-link:hover, a.footer-link:ac
 	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
 	font-size: 12px;
 	font-weight: bold;
-	color: #517CB2;
+	color: #3B6AA0;
 }
 
 a.footer-link:link:hover, a.footer-link:visited:hover{ 

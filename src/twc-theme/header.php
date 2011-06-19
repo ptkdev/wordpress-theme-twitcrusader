@@ -88,12 +88,12 @@
 			 ~ 
 			<a href="http://it.twitcrusader.org/features/" class="menu-link">FEATURES</a>
 			 ~ 
-			<a href="http://it.twitcrusader.org/download/source/" class="menu-link">SOURCE</a>
+			<a href="http://it.twitcrusader.org/source/" class="menu-link">SOURCE</a>
 			 ~ 
 			<a href="http://it.twitcrusader.org/download/" class="menu-link">DOWNLOAD</a>
 			 ~ 
 			<a href="http://dev.twitcrusader.org/" class="menu-link">DEVELOPERS</a>
 			 ~ 
-			<a href="http://dev.twitcrusader.org/about/" class="menu-link">ABOUT</a>
+			<a href="http://it.twitcrusader.org/about/" class="menu-link">ABOUT</a>
 		</div>
 		<div class="clear"></div>

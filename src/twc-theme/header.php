@@ -79,13 +79,11 @@
 		
 	<div id="container_all">
 		<div id="header">
-			<img class="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="TwitCrusader" title="TwitCrusader">
-			<div id="title"><span class="color1">Twit</span><span class="color2">Crusader</span></div>
+			<a href="http://it.twitcrusader.org/"><img class="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="TwitCrusader" title="TwitCrusader"></a>
+			<div id="title"><a href="http://it.twitcrusader.org/"><span class="color1">Twit</span><span class="color2">Crusader</span></a></div>
 			<div id="subtitle"><span class="color2">Client Twitter per Linux</span></div>
 		</div>
 		<div id="menu">
-			<a href="http://it.twitcrusader.org/" class="menu-link">HOME</a>
-			 ~ 
 			<a href="http://it.twitcrusader.org/features/" class="menu-link">FEATURES</a>
 			 ~ 
 			<a href="http://it.twitcrusader.org/source/" class="menu-link">SOURCE</a>

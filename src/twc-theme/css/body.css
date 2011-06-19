@@ -24,16 +24,19 @@
  * 
  */
 #container_all{
-	width: 890px;
+	width: 970px;
 	margin: 0 auto;
 }
 
 #content{
 	min-height: 500px;
 	margin-top: 15px;
-	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
-	font-size: 13px;
-	color: #3B6AA0;
+	font-family: "Sans","Sans Serif","OpenSymbol", "Verdana"; 
+	font-size: 14px;
+	color: #000000;
+	text-align: justify;
+	position: relative;
+	z-index: 10;
 }
 
 .cat-item{
@@ -65,7 +68,7 @@
 }
 
 .width_max{ 
-	width: 890px; 
+	width: 970px; 
 	margin: 0 auto;
 }
 

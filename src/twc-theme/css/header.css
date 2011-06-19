@@ -33,6 +33,8 @@
 	clear: both;
 	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
 	height: 105px;
+	position: relative;
+	z-index: 3;
 }
 
 img.logo{
@@ -65,12 +67,17 @@ img.logo{
 	height: 9px;
 	width: 100%;
 	position: absolute;
-	top: 125px;
+	top: 105px;
 	left: 0;
+	z-index: 1;
 }
 
 #menu{
 	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
 	font-size: 18px;
 	color: #E9E9E9;
+	text-align: right;
+	margin-top: -20px;
+	position: relative;
+	z-index: 5;
 }

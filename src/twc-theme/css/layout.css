@@ -28,9 +28,8 @@ html,body{
 	min-width: 980px;
 	text-align: left;
 	margin: 0 auto;
-	background-image: url("./../img/desktop/bg.png"); 
-	background-repeat: repeat-x; 
-	background-color: #B1DEFB; 
+	background-image: url("./../img/bg.png"); 
+	background-repeat: repeat; 
 }
 
 img {

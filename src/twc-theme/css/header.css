@@ -24,21 +24,24 @@
  * 
  */
 
-#title{
-	margin-top: 125px;
-	font-family: "Droid Sans","DroidSans_Import","Verdana","Sans Serif","OpenSymbol"; 
-	font-size: 72px;
-	color: #000000;
-	text-align: left;
-	position: relative;
-	z-index: 1;
+#container{
+	background-image: url("./../img/bg_header.png"); 
+	background-repeat: repeat-x; 
 }
 
-#subtitle{
-	font-family: "Droid Sans","DroidSans_Import","Verdana","Sans Serif","OpenSymbol"; 
-	font-size: 24px;
-	color: #000000;
-	text-align: left;
-	position: relative;
-	z-index: 1;
+#header{
+	clear: both;
+}
+
+#logo{
+	background-image: url("./../img/logo.png"); 
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 98px; 
+}
+
+#separator_header{
+	background-image: url("./../img/separator.png"); 
+	background-repeat: repeat-x; 
+	clear: both;
 }

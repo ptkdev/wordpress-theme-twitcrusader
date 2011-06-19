@@ -43,5 +43,9 @@
 #separator_header{
 	background-image: url("./../img/separator.png"); 
 	background-repeat: repeat-x; 
-	clear: both;
+	height: 9px;
+	width: 100%;
+	position: absolute;
+	top: 120px;
+	left: 0;
 }

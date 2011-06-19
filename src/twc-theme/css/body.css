@@ -25,8 +25,11 @@
  */
 #container_all{
 	width: 890px;
-	min-height: 670px;
 	margin: 0 auto;
+}
+
+#content{
+	min-height: 563px;
 }
 
 .cat-item{
@@ -55,6 +58,11 @@
 
 .clear_center{
 	text-align: center;
+}
+
+.width_max{ 
+	width: 890px; 
+	margin: 0 auto;
 }
 
 .width{ 

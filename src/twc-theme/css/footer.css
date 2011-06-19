@@ -23,3 +23,19 @@
  * 		E-mail: teamtwc@twitcrusader.org
  * 
  */
+ 
+#separator_footer{
+	background-image: url("./../img/bg_footer.png"); 
+	background-repeat: repeat-x; 
+	margin-bottom: 3px;
+}
+
+#separator_footer_imgsx{
+	background-image: url("./../img/separator_footer.png"); 
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 9px; 
+}
+#footer{
+	text-align: center;
+}

@@ -31,24 +31,28 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<title><?php wp_title(''); ?> <?php if(wp_title(' ', false)) { echo '&laquo;'; } ?> <?php bloginfo('name'); ?></title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<meta name="generator" content="Geany IDE" />
-	<meta name="author" content="Patryk Rzucidlo" />
-	<meta name="copyright" content="Creative Commons IT" />
+	
+	<meta name="author" content="TwitCrusader Team" />
+	<meta name="author-mail" content="teamtwc[at]twitcrusader[dot]org" />
+	<meta name="author-twitter" content="@teamtwc" />
+	<meta name="author-irc" content="chat.freenode.net #teamtwc" />
+	
+	<meta name="copyright" content="GNU Affero General Public License" />
+	<meta name="source-code" content="https://github.com/PTKDev/WordpressTheme-TwitCrusader" />
+	
 	<meta name="distribution" content="global" />
-	<meta name="author-mail" content="ptkdev[at]gmail[dot]com" />
-	<meta name="author-msn" content="ptkdev[at]gmail[dot]com" />
-	<meta name="author-skype" content="ptkdev" />
-	<meta name="author-gadu_gadu" content="2825253" />
-	<meta name="author-phone_wind" content="+39 3281759093" />
 	<meta name="robots" content="index,follow" />
 	<meta name="revisit-after" content="3 days" />
 	<meta name="rating" content="general" />
 	<meta name="language" content="it" />
-	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> - Feed RSS" href="http://feeds.feedburner.com/twitcrusader" />
+	
+	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> - Feed RSS" href="http://feeds.feedburner.com/TwitCrusader" />
 	<link rel="shortcut icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.ico" />
 	<link rel="icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.png" type="image/png" />
 	<link rel="icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.ico" type="image/ico" />
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
+		
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/mobile/layout.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/mobile/header.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/mobile/body.css" />

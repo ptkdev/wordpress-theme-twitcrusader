@@ -29,8 +29,11 @@
 }
 
 #content{
-	min-height: 563px;
+	min-height: 537px;
 	margin-top: 15px;
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	font-size: 16px;
+	color: #709DCD;
 }
 
 .cat-item{

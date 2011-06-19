@@ -25,7 +25,7 @@
  */
 
 a:link, a:visited, a:hover, a:active, a:focus{
-	color: #000000;
+	color: #517CB2;
 }
 
 a:link:hover, a:visited:hover{ 
@@ -64,6 +64,30 @@ a.menu-link:visited{
   text-decoration:none;
 }
 a.menu-link:link{ 
+  text-decoration:none;
+}
+
+a.post-link:link, a.post-link:visited, a.post-link:hover, a.post-link:active, a.post-link:focus{
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	font-size: 18px;
+	font-weight: bold;
+	color: #517CB2;
+}
+
+a.post--link:link:hover, a.post-link:visited:hover{ 
+  text-decoration:underline;
+  color: #517CB2;
+}
+a.post-link:active{ 
+  text-decoration:none;
+}
+a.post-link:focus{ 
+  text-decoration:underline;
+}
+a.post-link:visited{ 
+  text-decoration:none;
+}
+a.post-link:link{ 
   text-decoration:none;
 }
 

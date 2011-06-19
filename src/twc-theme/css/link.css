@@ -25,7 +25,7 @@
  */
 
 a:link, a:visited, a:hover, a:active, a:focus{
-  color: #000000;
+	color: #000000;
 }
 
 a:link:hover, a:visited:hover{ 
@@ -44,35 +44,52 @@ a:link{
   text-decoration:none;
 }
 
-a.footer:link, a.footer:visited, a.footer:hover, a.footer:active, a.footer:focus{
-	font-family: "Verdana","Sans Serif","OpenSymbol"; 
-	font-size: 13px;
-	font-weight: bold;
+a.menu-link:link, a.menu-link:visited, a.menu-link:hover, a.menu-link:active, a.menu-link:focus{
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	font-size: 18px;
+	color: #E9E9E9;
 }
 
-a.footer:link:hover, a.footer:visited:hover{ 
+a.menu-link:link:hover, a.menu-link:visited:hover{ 
   text-decoration:underline;
+  color: #517CB2;
 }
-a.footer:active{ 
+a.menu-link:active{ 
   text-decoration:none;
 }
-a.footer:focus{ 
+a.menu-link:focus{ 
   text-decoration:underline;
 }
-a.footer:visited{ 
+a.menu-link:visited{ 
   text-decoration:none;
 }
-a.footer:link{ 
+a.menu-link:link{ 
   text-decoration:none;
 }
 
-ul.blogroll li a {
-	font-family: Arial,"Verdana"; 
+a.footer-link:link, a.footer-link:visited, a.footer-link:hover, a.footer-link:active, a.footer-link:focus{
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
 	font-size: 12px;
 	font-weight: bold;
-	color: #000000;
-	margin-left: 5px;
+	color: #517CB2;
 }
+
+a.footer-link:link:hover, a.footer-link:visited:hover{ 
+  text-decoration:underline;
+}
+a.footer-link:active{ 
+  text-decoration:none;
+}
+a.footer-link:focus{ 
+  text-decoration:underline;
+}
+a.footer-link:visited{ 
+  text-decoration:none;
+}
+a.footer-link:link{ 
+  text-decoration:none;
+}
+
 
 
 

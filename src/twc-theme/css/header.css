@@ -31,13 +31,32 @@
 
 #header{
 	clear: both;
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	height: 105px;
 }
 
-#logo{
-	background-image: url("./../img/logo.png"); 
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 98px; 
+img.logo{
+	float: left;
+}
+
+#title{
+	font-size: 32px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+#subtitle{
+	font-size: 18px;
+	padding-left: 20px;
+}
+
+.color1{
+	color: #517CB2;
+}
+
+.color2{
+	color: #709DCD;
 }
 
 #separator_header{
@@ -46,6 +65,12 @@
 	height: 9px;
 	width: 100%;
 	position: absolute;
-	top: 120px;
+	top: 125px;
 	left: 0;
+}
+
+#menu{
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	font-size: 18px;
+	color: #E9E9E9;
 }

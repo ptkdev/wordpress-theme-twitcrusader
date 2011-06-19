@@ -74,3 +74,26 @@
 </head>
 
 <body>
+<div id="container">
+	<div id="separator_header"></div>
+		
+	<div id="container_all">
+		<div id="header">
+			<img class="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="TwitCrusader" title="TwitCrusader">
+			<div id="title"><span class="color1">Twit</span><span class="color2">Crusader</span></div>
+			<div id="subtitle"><span class="color2">Client Twitter per Linux</span></div>
+		</div>
+		<div id="menu">
+			<a href="" class="menu-link">HOME</a>
+			 ~ 
+			<a href="" class="menu-link">FEATURES</a>
+			 ~ 
+			<a href="" class="menu-link">SOURCE</a>
+			 ~ 
+			<a href="" class="menu-link">DOWNLOAD</a>
+			 ~ 
+			<a href="" class="menu-link">DEVELOPERS</a>
+			 ~ 
+			<a href="" class="menu-link">ABOUT</a>
+		</div>
+		<div class="clear"></div>

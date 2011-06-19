@@ -66,3 +66,7 @@ object {
   font-family: DroidSans_Import;
   src: local('DroidSans_Import'), url("./css/font/DroidSansMono.ttf") format("truetype");
 }
+
+ul.blogroll li a {
+	margin-left: 5px;
+}

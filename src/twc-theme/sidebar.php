@@ -26,23 +26,16 @@
  */
 ?>
 
-<div id="container">
-	<div id="separator_header"></div>
 		
-	<div id="container_all">
-		<div id="header">
-			<div id="logo"></div>
-		</div>
+	<div id="content">
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			<a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+			<?php the_content(); ?>
+		<?php endwhile; else: endif; ?>	
 		
-		<div id="content">
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
-				<?php the_content(); ?>
-			<?php endwhile; else: endif; ?>	
-			
-			<?php if(!is_single()) { ?>
-				<?php posts_nav_link(' | ','&laquo; Pagina Precedente','Pagina Successiva &raquo;'); ?> 
-			<?php }?>
-		</div>
+		<?php if(!is_single()) { ?>
+			<?php posts_nav_link(' | ','&laquo; Pagina Precedente','Pagina Successiva &raquo;'); ?> 
+		<?php }?>
+	</div>
 
 

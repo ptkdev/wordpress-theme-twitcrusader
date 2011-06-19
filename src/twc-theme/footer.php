@@ -25,8 +25,10 @@
  * 
  */
 ?>
-
-	<div id="clear"></div>
+	
+	<div class="clear"></div>
+	<div id="separator_footer_init"></div>
+	<div class="clear"></div>
 	<div id="footer">
 		| <a class="footer-link" href="http://www.ptkweb.it/">PatrykWeb</a> 
 		| <a class="footer-link" href="http://www.ptkdev.it/">PTKDev</a> 
@@ -37,16 +39,15 @@
 		|
 		<br />TwitCrusader ~ Version 0.2
 		<br />2011 ~ <?php echo date('Y')+1;?>
-		<?php wp_footer(); ?>
 	</div>
 
-	<div id="clear"></div>
+	<div class="clear"></div>
 	<div id="separator_footer">
 		<div class="width_max">
 			<div id="separator_footer_imgsx"></div>
 		</div>
 	</div>
-	
+	<?php wp_footer(); ?>
 
 </body>
 </html>

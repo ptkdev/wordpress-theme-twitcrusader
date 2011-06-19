@@ -24,6 +24,15 @@
  * 
  */
  
+#separator_footer_init{
+	background-image: url("./../img/separator.png"); 
+	background-repeat: repeat-x; 
+	height: 9px;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+ 
 #separator_footer{
 	background-image: url("./../img/bg_footer.png"); 
 	background-repeat: repeat-x; 

@@ -74,7 +74,7 @@ a.post-link:link, a.post-link:visited, a.post-link:hover, a.post-link:active, a.
 	color: #517CB2;
 }
 
-a.post--link:link:hover, a.post-link:visited:hover{ 
+a.post-link:link:hover, a.post-link:visited:hover{ 
   text-decoration:underline;
   color: #517CB2;
 }

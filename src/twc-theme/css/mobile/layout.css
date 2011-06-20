@@ -30,6 +30,8 @@ html,body{
 	width: 100%;
 	margin: 0 auto;
 	text-align: left;
+	background-image: url("./../img/bg.png"); 
+	background-repeat: repeat; 
 }
 
 img {
@@ -49,5 +51,9 @@ object {
 
 @font-face {
   font-family: DroidSans_Import;
-  src: local('DroidSans_Import'), url("../font/DroidSansMono.ttf") format("truetype");
+  src: local('DroidSans_Import'), url("./css/font/DroidSansMono.ttf") format("truetype");
+}
+
+ul.blogroll li a {
+	margin-left: 5px;
 }

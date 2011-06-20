@@ -65,4 +65,24 @@
 </head>
 
 <body>
-	<div id="title"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">TwitCrusader</a></div>		
+<div id="container">
+	<div id="separator_header"></div>
+		
+	<div id="container_all">
+		<div id="header">
+			<a href="http://it.twitcrusader.org/"><img class="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="TwitCrusader" title="TwitCrusader"></a>
+			<div id="title"><a href="http://it.twitcrusader.org/"><span class="color1">Twit</span><span class="color2">Crusader</span></a></div>
+			<div id="subtitle"><span class="color2">Client Twitter per Linux</span></div>
+		</div>
+		<div id="menu">
+			<a href="http://it.twitcrusader.org/features/" class="menu-link">FEATURES</a>
+			 ~ 
+			<a href="http://it.twitcrusader.org/source/" class="menu-link">SOURCE</a>
+			 ~ 
+			<a href="http://it.twitcrusader.org/download/" class="menu-link">DOWNLOAD</a>
+			 ~ 
+			<a href="http://dev.twitcrusader.org/" class="menu-link">DEVELOPERS</a>
+			 ~ 
+			<a href="http://it.twitcrusader.org/about/" class="menu-link">ABOUT</a>
+		</div>
+		<div class="clear"></div>

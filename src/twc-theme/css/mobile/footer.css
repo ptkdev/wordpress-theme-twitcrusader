@@ -24,21 +24,31 @@
  * 
  */
 
-#sep{
-	clear: both;
+#separator_footer_init{
+	background-image: url("./../img/separator.png"); 
+	background-repeat: repeat-x; 
+	height: 9px;
 	width: 100%;
-	height: 1px;
-	background-color: #009CF5;
-	position: relative;
-	z-index: 1; 
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+ 
+#separator_footer{
+	background-image: url("./../img/bg_footer.png"); 
+	background-repeat: repeat-x; 
+	margin-bottom: 3px;
+}
+
+#separator_footer_imgsx{
+	background-image: url("./../img/separator_footer.png"); 
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 9px; 
 }
 #footer{
-	font-family: "Verdana","Sans Serif","OpenSymbol"; 
-	font-size: 12px;
 	text-align: center;
-	width: 100%;
-	padding-top: 5px; 
-	padding-bottom: 5px; 
-	background-color: #ACD7F6;
-	font-family: Arial,"Verdana"; 
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	font-size: 12px;
+	font-weight: bold;
+	color: #709DCD;
 }

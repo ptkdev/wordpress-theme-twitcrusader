@@ -24,16 +24,61 @@
  * 
  */
 
-#title{
-	font-family: "Droid Sans","DroidSans_Import","Verdana","Sans Serif","OpenSymbol"; 
-	font-size: 30px;
-	color: #000000;
-	text-align: left;
-	position: relative;
-	z-index: 1;
-	width: 100%;
-	background-color: #009CF5;
-	height: 50px;
-	text-align: center;
-	padding-top: 5px;
+#container{
+	background-image: url("./../img/bg_header.png"); 
+	background-repeat: repeat-x; 
 }
+
+#header{
+	clear: both;
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	height: 105px;
+	position: relative;
+	z-index: 3;
+}
+
+img.logo{
+	float: left;
+}
+
+#title{
+	font-size: 32px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+#subtitle{
+	font-size: 18px;
+	padding-left: 20px;
+}
+
+.color1{
+	color: #517CB2;
+}
+
+.color2{
+	color: #709DCD;
+}
+
+#separator_header{
+	background-image: url("./../img/separator.png"); 
+	background-repeat: repeat-x; 
+	height: 9px;
+	width: 100%;
+	position: absolute;
+	top: 105px;
+	left: 0;
+	z-index: 1;
+}
+
+#menu{
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	font-size: 18px;
+	color: #E9E9E9;
+	text-align: right;
+	margin-top: -20px;
+	position: relative;
+	z-index: 5;
+}
+

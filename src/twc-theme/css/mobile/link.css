@@ -25,17 +25,17 @@
  */
 
 a:link, a:visited, a:hover, a:active, a:focus{
-  color: #000000;
+	color: #000000;
 }
 
 a:link:hover, a:visited:hover{ 
-  text-decoration:none;
+  text-decoration:underline;
 }
 a:active{ 
   text-decoration:none;
 }
 a:focus{ 
-  text-decoration:none;
+  text-decoration:underline;
 }
 a:visited{ 
   text-decoration:none;
@@ -44,71 +44,76 @@ a:link{
   text-decoration:none;
 }
 
-a.menu:link, a.menu:visited, a.menu:hover, a.menu:active, a.menu:focus{
-	font-family: Arial,"Verdana"; 
-	font-size: 12px;
-	font-weight: bold;
-	color: #000000;
+a.menu-link:link, a.menu-link:visited, a.menu-link:hover, a.menu-link:active, a.menu-link:focus{
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	font-size: 18px;
+	color: #3B6AA0;
 }
 
-a.menu:link:hover, a.menu:visited:hover{ 
+a.menu-link:link:hover, a.menu-link:visited:hover{ 
   text-decoration:underline;
+  color: #517CB2;
 }
-a.menu:active{ 
+a.menu-link:active{ 
   text-decoration:none;
 }
-a.menu:focus{ 
+a.menu-link:focus{ 
   text-decoration:underline;
 }
-a.menu:visited{ 
+a.menu-link:visited{ 
   text-decoration:none;
 }
-a.menu:link{ 
+a.menu-link:link{ 
   text-decoration:none;
 }
 
-a.title_post:link, a.title_post:visited, a.title_post:hover, a.title_post:active, a.title_post:focus{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+a.post-link:link, a.post-link:visited, a.post-link:hover, a.post-link:active, a.post-link:focus{
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
 	font-size: 18px;
 	font-weight: bold;
-	color: #2E7FBE;
+	color: #517CB2;
 }
 
-a.title_post:link:hover, a.title_post:visited:hover{ 
+a.post-link:link:hover, a.post-link:visited:hover{ 
   text-decoration:underline;
+  color: #517CB2;
 }
-a.title_post:active{ 
+a.post-link:active{ 
   text-decoration:none;
 }
-a.title_post:focus{ 
+a.post-link:focus{ 
   text-decoration:underline;
 }
-a.title_post:visited{ 
+a.post-link:visited{ 
   text-decoration:none;
 }
-a.title_post:link{ 
+a.post-link:link{ 
   text-decoration:none;
 }
 
-a.author:link, a.author:visited, a.author:hover, a.author:active, a.author:focus{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+a.footer-link:link, a.footer-link:visited, a.footer-link:hover, a.footer-link:active, a.footer-link:focus{
+	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	font-size: 12px;
 	font-weight: bold;
-	color: #5A5A5A;
+	color: #3B6AA0;
 }
 
-a.author:link:hover, a.author:visited:hover{ 
+a.footer-link:link:hover, a.footer-link:visited:hover{ 
   text-decoration:underline;
 }
-a.author:active{ 
+a.footer-link:active{ 
   text-decoration:none;
 }
-a.author:focus{ 
+a.footer-link:focus{ 
   text-decoration:underline;
 }
-a.author:visited{ 
+a.footer-link:visited{ 
   text-decoration:none;
 }
-a.author:link{ 
+a.footer-link:link{ 
   text-decoration:none;
 }
+
+
+
 

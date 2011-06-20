@@ -26,11 +26,27 @@
  */
 ?>
 
-	<div id="sep"></div>
+	<div class="clear"></div>
+	<div id="separator_footer_init"></div>
+	<div class="clear"></div>
 	<div id="footer">
-		TwitCrusader ~ Version Mobile 0.1<br />
-		2011 ~ <?php echo date('Y')+1;?>
+		| <a class="footer-link" href="http://www.ptkweb.it/">PatrykWeb</a> 
+		| <a class="footer-link" href="http://www.ptkdev.it/">PTKDev</a> 
+		| <a class="footer-link" href="http://www.nexusdroid.it/">NexusDroid</a> 
+		| <a class="footer-link" href="http://www.faddict.it/">FAddict</a> 
+		| <a class="footer-link" href="http://it.twitcrusader.org/">TwitCrusader</a> 
+		| <a class="footer-link" href="http://it.gwriterblog.org/">gWriterBlog</a> 
+		|
+		<br />TwitCrusader ~ Version 0.2
+		<br />2011 ~ <?php echo date('Y')+1;?>
 	</div>
-<?php wp_footer(); ?>
+
+	<div class="clear"></div>
+	<div id="separator_footer">
+		<div class="width_max">
+			<div id="separator_footer_imgsx"></div>
+		</div>
+	</div>
+	<?php wp_footer(); ?>
 </body>
 </html>

@@ -30,13 +30,20 @@ html,body{
 	width: 100%;
 	margin: 0 auto;
 	text-align: left;
-	background-image: url("./../img/bg.png"); 
+	background-image: url("./../../img/bg.png"); 
 	background-repeat: repeat; 
 }
 
 img {
 	border: 0;
 	max-width: 100%;
+}
+
+img.hide {
+	border: 0;
+	width: 0px;
+	height: 0px;
+	display: hidden;
 }
 
 embed {

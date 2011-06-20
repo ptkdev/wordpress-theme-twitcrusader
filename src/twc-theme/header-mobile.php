@@ -75,11 +75,18 @@
 			<div id="subtitle"><span class="color2">Client Twitter per Linux</span></div>
 		</div>
 		<div id="menu">
+			 ~ 
 			<a href="http://it.twitcrusader.org/features/" class="menu-link">FEATURES</a>
+			 ~ 
+			<br />
 			 ~ 
 			<a href="http://it.twitcrusader.org/source/" class="menu-link">SOURCE</a>
 			 ~ 
+			<br />
+			 ~ 
 			<a href="http://it.twitcrusader.org/download/" class="menu-link">DOWNLOAD</a>
+			 ~ 
+			<br />
 			 ~ 
 			<a href="http://dev.twitcrusader.org/" class="menu-link">DEVELOPERS</a>
 			 ~ 

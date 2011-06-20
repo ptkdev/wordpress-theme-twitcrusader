@@ -63,8 +63,10 @@ object {
 }
 
 @font-face {
-  font-family: DroidSans_Import;
-  src: local('DroidSans_Import'), url("./css/font/DroidSansMono.ttf") format("truetype");
+        font-family: DroidSans_Import;
+        font-style: normal;
+        font-weight: normal, bold;
+        src: url("./../font/DroidSans.ttf") format("truetype"), url("./font/DroidSans-Bold.ttf") format("truetype");
 }
 
 ul.blogroll li a {

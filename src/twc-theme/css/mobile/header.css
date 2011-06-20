@@ -39,7 +39,7 @@
 
 #header{
 	clear: both;
-	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
+	font-family: "Droid Sans", DroidSans_Import, "Sans Serif","OpenSymbol", "Verdana";
 	height: 105px;
 	position: relative;
 	z-index: 3;
@@ -50,8 +50,10 @@ img.logo{
 }
 
 #title{
-	font-size: 32px;
+	
+	font-family: "Droid Sans", DroidSansBold_Import, "Sans Serif","OpenSymbol", "Verdana";
 	font-weight: bold;
+	font-size: 32px;
 	padding-top: 15px;
 	padding-left: 20px;
 }
@@ -75,14 +77,15 @@ img.logo{
 	height: 9px;
 	width: 100%;
 	position: absolute;
-	top: 145px;
+	top: 138px;
 	left: 0;
 	z-index: 1;
 }
 
 #menu{
-	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
-	font-size: 18px;
+	font-family: "Droid Sans", DroidSansBold_Import, "Sans Serif","OpenSymbol", "Verdana";
+	font-size: 16px;
+	font-weight: bold;
 	color: #E9E9E9;
 	text-align: center;
 	position: relative;

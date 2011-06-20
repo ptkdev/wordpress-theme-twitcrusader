@@ -22,12 +22,11 @@
  * 		IRC: chat.freenode.net at #teamtwc
  * 		E-mail: teamtwc@twitcrusader.org
  * 
- */
+ */ 
 
 html,body{
-	max-width: 800px;
-	min-width: 240px;
 	width: 100%;
+	min-width: 240px;
 	margin: 0 auto;
 	text-align: left;
 	background-image: url("./../../img/bg.png"); 
@@ -57,8 +56,16 @@ object {
 }
 
 @font-face {
-  font-family: DroidSans_Import;
-  src: local('DroidSans_Import'), url("./css/font/DroidSansMono.ttf") format("truetype");
+        font-family: DroidSans_Import;
+        font-style: normal;
+        src: url("./../font/DroidSans.ttf") format("truetype");
+}
+
+@font-face {
+        font-family: DroidSansBold_Import;
+        font-style: normal;
+        font-weight: bold;
+        src: url("./../font/DroidSans-Bold.ttf") format("truetype");
 }
 
 ul.blogroll li a {

@@ -75,6 +75,7 @@
 			<div id="title"><a href="http://it.twitcrusader.org/"><span class="color1">Twit</span><span class="color2">Crusader</span></a></div>
 			<div id="subtitle"><span class="color2">Client Twitter per Linux</span></div>
 		</div>
+		<div class="clear"></div>
 		<div id="menu">
 			
 			<a href="http://it.twitcrusader.org/features/" class="menu-link">FEATURES</a>

@@ -67,6 +67,7 @@
 <body>
 <div id="container">
 	<div id="separator_header_first"></div>
+	<div id="separator_header"></div>
 		
 	<div id="container_all">
 		<div id="header">

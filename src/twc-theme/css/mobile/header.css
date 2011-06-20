@@ -25,8 +25,16 @@
  */
 
 #container{
+	/*TODO*/
+}
+
+#separator_header_first{
 	background-image: url("./../../img/bg_header.png"); 
 	background-repeat: repeat-x; 
+	height: 8px; /* WTF? Is 9px but if change to 9px browser android add blu-line O_O */
+	width: 100%;
+	position: absolute;
+	z-index: 1;
 }
 
 #header{
@@ -67,7 +75,7 @@ img.logo{
 	height: 9px;
 	width: 100%;
 	position: absolute;
-	top: 105px;
+	top: 145px;
 	left: 0;
 	z-index: 1;
 }
@@ -76,8 +84,7 @@ img.logo{
 	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
 	font-size: 18px;
 	color: #E9E9E9;
-	text-align: right;
-	margin-top: -20px;
+	text-align: center;
 	position: relative;
 	z-index: 5;
 }

@@ -43,7 +43,7 @@ img.hide {
 	border: 0;
 	width: 0px;
 	height: 0px;
-	display: hidden;
+	display: none;
 }
 
 embed {

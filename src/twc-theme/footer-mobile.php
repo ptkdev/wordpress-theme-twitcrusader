@@ -37,7 +37,7 @@
 		<br />
 		| <a class="footer-link" href="http://it.twitcrusader.org/">TwitCrusader</a> 
 		| <a class="footer-link" href="http://it.gwriterblog.org/">gWriterBlog</a> 
-		|
+		|<br />
 		<br />TwitCrusader ~ Mobile Version 0.2
 		<br />2011 ~ <?php echo date('Y')+1;?>
 	</div>

@@ -82,9 +82,11 @@
 			 ~ 
 			<a href="http://it.twitcrusader.org/source/" class="menu-link">SOURCE</a>
 			 ~ 
-			<a href="http://it.twitcrusader.org/download/" class="menu-link">DOWNLOAD</a><br />
+			<a href="http://it.twitcrusader.org/forks/" class="menu-link">FORKS</a><br />
 			
-			<a href="http://dev.twitcrusader.org/" class="menu-link">DEVELOPERS</a>
+			<a href="http://it.twitcrusader.org/download/" class="menu-link">DOWNLOAD</a>
+			 ~ 
+			<a href="http://dev.twitcrusader.org/" class="menu-link">DEV</a>
 			 ~ 
 			<a href="http://it.twitcrusader.org/about/" class="menu-link">ABOUT</a>
 			

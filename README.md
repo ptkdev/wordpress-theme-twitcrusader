@@ -1,17 +1,15 @@
-#TwitCrusader (Wordpress Theme)
+#TwitCrusader - Wordpress Theme
 
 TwitCrusader (Wordpress Theme) is official wordpress theme of http://www.twitcrusader.org/
 
-## How to Install
 
-- Copy /src content to your wp-content/themes wordpress-folder
-- Upload all file with FTP
-- Select theme at wp-admin control panel
+##Install
+	* Copy /src content to your wp-content/themes wordpress-folder
+	* Upload all file with FTP
+	* Select theme at wp-admin control panel
 
 
-## Support
-
-You can find us on this web source:
+#Support
 
 WebSite: http://www.twitcrusader.org/
 

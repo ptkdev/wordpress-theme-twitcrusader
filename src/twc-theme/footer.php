@@ -47,6 +47,7 @@
 			<div id="separator_footer_imgsx"></div>
 		</div>
 	</div>
+	<a href="https://github.com/PTKDev/ClientTwitter-TwitCrusader"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 10;" src="<?php bloginfo('template_url'); ?>/img/forkme_github.png" alt="Fork me on GitHub"></a>
 	<?php wp_footer(); ?>
 
 </body>

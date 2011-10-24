@@ -76,8 +76,9 @@ img.logo{
 	font-family: "Droid Sans", "DroidSans_Import", "Sans Serif","OpenSymbol", "Verdana"; 
 	font-size: 18px;
 	color: #E9E9E9;
-	text-align: right;
+	text-align: left;
 	margin-top: -20px;
 	position: relative;
 	z-index: 5;
+	padding-left: 100px;
 }
